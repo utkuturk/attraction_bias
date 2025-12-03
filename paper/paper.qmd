@@ -1,0 +1,71 @@
+---
+title: "Attraction Bias"
+author:
+  - name: Author Name
+    affiliations:
+      - name: University Name
+        department: Department Name
+        city: City
+        country: Country
+    email: email@example.com
+    corresponding: true
+abstract: |
+  This is the abstract of the paper. Replace this text with your actual abstract.
+keywords:
+  - keyword1
+  - keyword2
+  - keyword3
+date: last-modified
+bibliography: bibliography.bib
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: true
+    code-tools: true
+    embed-resources: true
+  elsevier-pdf:
+    keep-tex: true
+    include-in-header: preamble.tex
+    journal:
+      name: Journal Name
+      cite-style: authoryear
+      formatting: preprint
+      model: 1p
+filters:
+  - wordcount
+  - interlinear
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+# Introduction
+
+Write your introduction here.
+
+# Methods
+
+## Participants
+
+Describe your participants here.
+
+## Materials
+
+Describe your materials here.
+
+## Procedure
+
+Describe your procedure here.
+
+# Results
+
+Present your results here.
+
+# Discussion
+
+Discuss your findings here.
+
+# References
